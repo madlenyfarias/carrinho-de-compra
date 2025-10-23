@@ -22,8 +22,8 @@ main{
     margin: 20px;
 }
 
-.butao{
-  background: linear-gradient(135deg, #6a11cb, #2575fc);
+.botao {
+  background: linear-gradient(135deg, #00c853, #4caf50);
   color: #fff;
   border: none;
   border-radius: 8px;
@@ -32,6 +32,12 @@ main{
   font-weight: 600;
   cursor: pointer;
   transition: all 0.3s ease;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 4px 10px rgba(0, 128, 0, 0.2);
+}
 
+/* Efeito hover */
+.botao:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 14px rgba(0, 128, 0, 0.3);
+  background: linear-gradient(135deg, #43a047, #00c853);
 }
