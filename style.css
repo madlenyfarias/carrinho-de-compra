@@ -35,9 +35,3 @@ main{
   box-shadow: 0 4px 10px rgba(0, 128, 0, 0.2);
 }
 
-/* Efeito hover */
-.botao:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 6px 14px rgba(0, 128, 0, 0.3);
-  background: linear-gradient(135deg, #43a047, #00c853);
-}
